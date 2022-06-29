@@ -1,6 +1,6 @@
 {
-    "theme_color": "#c0c0c0",
-    "background_color": "#c0c0c0",
+    "theme_color": "#909090",
+    "background_color": "#909090",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "https://6rystian.github.io/PWA-projekt/",
