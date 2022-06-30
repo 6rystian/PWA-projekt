@@ -44,11 +44,13 @@ h1 {
 
 .intro{
     padding: 20px;
+    width: 100%;
 }
 
 .intro p {
     line-height: 1.6;
     font-weight: 400;
+    text-align: center;
 }
 
 
@@ -188,8 +190,6 @@ footer p {
     text-align: center;
   }
 
-
-
 @media screen and (min-width: 720px) { 
     main{
         display: flex;
@@ -201,10 +201,16 @@ footer p {
     }
  }
 
+ @media screen and (min-width: 1080px) { 
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-
-
-
+    .kvr {
+        width: 33%;
+    }
+ }
 
 
  @media screen and (min-width: 1440px) { 
